@@ -1,0 +1,25 @@
+# Cursor AI Rules for Swaggertesr
+
+You have access to the `Swaggertesr` MCP server tools.
+Purpose: This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key `special-key` to test the authorization filters.
+
+## Usage Guidelines
+- When the user asks related questions, prefer using the `swaggertesr` MCP tools.
+- You can access these tools by typing `@` followed by the server name.
+
+## Available Tools (Highlights)
+- `uploadFile`: 
+- `addPet`: 
+- `updatePet`: 
+- `findPetsByStatus`: Multiple status values can be provided with comma separated strings
+- `findPetsByTags`: Multiple tags can be provided with comma separated strings. Use tag1, tag2, tag3 for testing.
+- `getPetById`: Returns a single pet
+- `updatePetWithForm`: 
+- `deletePet`: 
+- `getInventory`: Returns a map of status codes to quantities
+- `placeOrder`: 
+
+## Interaction Pattern
+1. Analyze user intent.
+2. If the user needs data or actions from Swaggertesr, call the appropriate MCP tool.
+3. Process the results and explain them clearly to the user.
